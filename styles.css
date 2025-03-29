@@ -1,0 +1,100 @@
+/* let style the body first */
+
+body {
+    font: 1em sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: auto;
+    color: #333;
+}
+
+p {
+    color: gray;
+}
+
+h4 {
+    color: blueviolet;
+}
+
+#fullname, #address, #country, #email, #male, #female, #password, #confirm_password, #first_name, #aka, #surname, #terms {
+    color: rgb(0, 217, 255);
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    background: rgb(48, 56, 56);
+    color: #546826;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+header h4 {
+    color: gray;
+}
+
+/* Navigation 
+nav {
+    display: flex;
+    justify-content: center;
+    background: #1a252f;
+    padding: 10px 0;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #4a6982;
+}
+*/
+/* Main Content */
+main {
+    padding: 5px;
+    background: white;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+ol {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer ul {
+    text-align: left;
+    color: cadetblue;
+}
+
+footer link {
+    color: aliceblue;
+}
